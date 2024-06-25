@@ -145,6 +145,7 @@ button:focus {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .business {
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -155,6 +156,7 @@ button:focus {
 
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25),
     0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
