@@ -273,6 +273,8 @@ img {
 .nav-link {
   padding: 24px 0;
   display: block;
+  color: #404bbf;
+  position: relative;
 }
 /* button */
 .business {
