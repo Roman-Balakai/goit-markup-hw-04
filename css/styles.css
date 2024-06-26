@@ -429,6 +429,12 @@ img {
   align-items: center;
   justify-content: center;
 }
+.link-team-social:hover {
+  background-color: #404bbf;
+}
+.link-team-social:focus {
+  background-color: #404bbf;
+}
 .social-svg {
   fill: #f4f4fd;
 }
