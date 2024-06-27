@@ -109,7 +109,8 @@ a {
   color: #404bbf;
   text-decoration: underline;
 }
-.nav-link::after {
+
+.current:active::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -170,6 +171,7 @@ button:focus {
   background-position: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25),
     0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
 }
 .footer {
   background-color: #2e2f42;
