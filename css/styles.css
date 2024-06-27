@@ -74,6 +74,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -107,10 +108,10 @@ a {
 }
 .nav-link:active {
   color: #404bbf;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-.current::after {
+.current:active::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -128,7 +129,7 @@ a {
 }
 .adress-link:active {
   color: #404bbf;
-  text-decoration: underline;
+  text-decoration: none;
 }
 button {
   font-family: "Roboto", sans-serif;
@@ -222,7 +223,7 @@ button:focus {
 }
 .current {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
 }
 .contacts-adress {
   font-style: normal;
