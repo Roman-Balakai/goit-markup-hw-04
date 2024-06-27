@@ -110,7 +110,7 @@ a {
   text-decoration: underline;
 }
 
-.current::after {
+.current:active::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -285,7 +285,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.nav-link {
+.current {
   padding: 24px 0;
   display: block;
   color: #404bbf;
