@@ -110,7 +110,7 @@ a {
   text-decoration: underline;
 }
 
-.nav-link::after {
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
