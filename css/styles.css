@@ -111,7 +111,7 @@ a {
   text-decoration: none;
 }
 
-.current:active::after {
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
