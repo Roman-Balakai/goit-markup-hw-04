@@ -110,7 +110,6 @@ a {
   color: #404bbf;
   text-decoration: none;
 }
-
 .current::after {
   content: "";
   width: 100%;
@@ -223,7 +222,7 @@ button:focus {
 }
 .current {
   position: relative;
-  color: #2e2f42;
+  color: #404bbf;
 }
 .contacts-adress {
   font-style: normal;
